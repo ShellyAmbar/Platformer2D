@@ -15,7 +15,7 @@ public class ItemsCollector : MonoBehaviour
     private int totalFruits = 0;
    [SerializeField] private Text countText;
 
-    private enum Obstecals
+    private enum CollectableItems
     {
        Cherry,
        Apple,
@@ -33,29 +33,29 @@ public class ItemsCollector : MonoBehaviour
            
 
             
-             if (collision.gameObject.CompareTag(Enum.GetName(typeof(Obstecals), Obstecals.Cherry)))
+             if (collision.gameObject.CompareTag(Enum.GetName(typeof(CollectableItems), CollectableItems.Cherry)))
             {
                 cherrieCount++;
                 Debug.Log(cherrieCount);
             }
-            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(Obstecals), Obstecals.Strawberry))) {
+            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(CollectableItems), CollectableItems.Strawberry))) {
                 strawberryCount++;
                 Debug.Log(strawberryCount);
             }
 
-            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(Obstecals), Obstecals.Banana))) {
+            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(CollectableItems), CollectableItems.Banana))) {
                 bananaCount++;
                 Debug.Log(bananaCount);
             }
-            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(Obstecals), Obstecals.Melon))) {
+            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(CollectableItems), CollectableItems.Melon))) {
                 melonCount++;
                 Debug.Log(melonCount);
             }
-            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(Obstecals), Obstecals.Pineapple))) {
+            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(CollectableItems), CollectableItems.Pineapple))) {
                 pineappleCount++;
                 Debug.Log(pineappleCount);
             }
-            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(Obstecals), Obstecals.Apple))) {
+            else if (collision.gameObject.CompareTag(Enum.GetName(typeof(CollectableItems), CollectableItems.Apple))) {
                 appleCount++;
                 Debug.Log (appleCount); 
 
