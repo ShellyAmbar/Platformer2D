@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Cherry
+  - Spikes
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 4190976115
+    locked: 0
+  - name: Mountains
+    uniqueID: 1703524383
+    locked: 0
+  - name: Clouds
+    uniqueID: 526298149
+    locked: 0
+  - name: Trees
+    uniqueID: 2173521921
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Terrain
+    uniqueID: 642453919
+    locked: 0
+  - name: Player
+    uniqueID: 2153128543
+    locked: 0
+  - name: New Layer
+    uniqueID: 2565056929
+    locked: 0
